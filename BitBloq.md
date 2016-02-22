@@ -2,7 +2,7 @@
 
 ## Curso para el CEP de Orcera
 
-## 22,23 de Febrero y 7,8 de Marzo
+## 22, 23 de Febrero y 7, 8 de Marzo
 
 ## Nivel básico
 
@@ -95,10 +95,6 @@ Desde bitbloq siempre podemos ver el codigo Arduino generado. De momento no pode
 Bitbloq nos permite programar nuestro arduino sin instalar (practicamente) nada en nuestro ordenador. Sólo tenemos que pulsar sobre el botón cargar lo que hace que se compile el código, se detecte la placa y se envíe el programa a naestro Arduino
 
 
-Para aprender las funciones de pin en bitbloq  
-[[vídeo]](http://youtu.be/zKs0-vwoxMM)
-
-Las funciones de pin son las distintas formas que tenemos de manejar los pines de arduino. Tenemos las mismas sentencias que en arduino (en el menú Funciones de Pin): DigitalWrite, AnalogWrite, DigitalRead y AnalogRead. También podemos usarlas si utilizamos un bloque ZUM o octopus correspondiente. ????
 
 #### Ejercicio: Cambiar al pin del esquema
 
@@ -132,58 +128,16 @@ Las funciones de pin son las distintas formas que tenemos de manejar los pines d
 * Necesitamos un programa para ver los datos
 
 ## Vamos a enviar "Encendido" y "Apagado" al PC
-![ParpadeoSerie](imagenes/ParpadeoSerie.png)
 
-* * *
-# Escritura de valores analógicos
+Para enviar datos al PC necesitamos añadir el componente "Puerto Serie"
 
-## Usando técnicas como PWM podemos simular valores intermedios: 0 - 255
-### (sólo en algunos pines ~ )
+![HardwareSerie](./imagenes/HardwareSerie.png)
 
-## Como vamos a hacer que cambie de valor usaremos una variable
+Una vez añadido tendremos acceso a las funciones de comunicaciones. Podremos enviar cualquier contenido (variables, texto, etc...)
 
-![dimmer](imagenes/dimmer-circuit3.png)
+![SoftwareSerie.png](./imagenes/SoftwareSerie.png)
 
-![analogWrite](imagenes/AnalogWrite.png)
-
-### Si vemos el código
-
-	void setup()						// configuracion
-	{
-	  pinMode(9,OUTPUT);				// Usaremos la patilla 5 como salida
-	  Serial.begin(9600);				// Configuramos la conexión con el PC
-	}
-
-	void loop()
-	{
-	  int valorSalida=0;				// la variable valorSalida empieza en 0
-	  while (valorSalida < 256) {		// Haremos el bucle hasta que llegemos a 256
-	    analogWrite(9,valorSalida);		// pasamos el valor a la patilla 5
-	    Serial.println(valorSalida);	// Enviamos al pc la variable
-	    delay(100);						// Esperamos 0,1 segundos
-	   }
-
-	}
-
-* * *
-# Led RGB
-## 3 leds (Red,Green,Blue) con una de las patillas común
-
-## Positivo (Ánodo) Común
-
-![LedRGBPcomun](imagenes/LedRGBPcomun.jpg)
-
-## Negativo (Cátodo) Común
-
-![LedRGBNcomun](imagenes/LedRGBNComun.png)
-
-## Tiras de leds: Necesitamos más potencia por lo que usaremos un transistor como amplificador.
-
-### El montaje es sencillo
-
-![ledstripbjt](imagenes/ledstripbjt.gif)
-
-
+Podremos ver estos valores por el "Monitor Serie"
 
 ## Sentencias de control
 
@@ -245,6 +199,55 @@ Entre estas condiciones utilizaremos operadores lógicos que pueden ser AND o OR
 
 * Con que se cumpla una de elllas se dará por válida toda la condición
 
+* * *
+# Escritura de valores analógicos
+
+## Usando técnicas como PWM podemos simular valores intermedios: 0 - 255
+### (sólo en algunos pines ~ )
+
+## Como vamos a hacer que cambie de valor usaremos una variable
+
+![dimmer](imagenes/dimmer-circuit3.png)
+
+![analogWrite](imagenes/SalidaAnalogica.png)
+
+### Si vemos el código
+
+	void setup()						// configuracion
+	{
+	  pinMode(9,OUTPUT);				// Usaremos la patilla 5 como salida
+	  Serial.begin(9600);				// Configuramos la conexión con el PC
+	}
+
+	void loop()
+	{
+	  int valorSalida=0;				// la variable valorSalida empieza en 0
+	  while (valorSalida < 256) {		// Haremos el bucle hasta que llegemos a 256
+	    analogWrite(9,valorSalida);		// pasamos el valor a la patilla 5
+	    Serial.println(valorSalida);	// Enviamos al pc la variable
+	    delay(100);						// Esperamos 0,1 segundos
+	   }
+
+	}
+
+* * *
+# Led RGB
+## 3 leds (Red,Green,Blue) con una de las patillas común
+
+## Positivo (Ánodo) Común
+
+![LedRGBPcomun](imagenes/LedRGBPcomun.jpg)
+
+## Negativo (Cátodo) Común
+
+![LedRGBNcomun](imagenes/LedRGBNComun.png)
+
+## Tiras de leds: Necesitamos más potencia por lo que usaremos un transistor como amplificador.
+
+### El montaje es sencillo
+
+![ledstripbjt](imagenes/ledstripbjt.gif)
+
 
 ## Envío de datos al PC:
 [[vídeo]](https://youtu.be/hy9t76RLeBU) [[ejemplo]](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/comunicacion%20serie.json)
@@ -288,7 +291,7 @@ En el caso de Bitbloq, ahora mismo no se pueden usar librerías, de forma manual
 
 ### Servo
 
-![imagen](./ejemplosBitbloq/Servo.png) [[ejemplo]](./ejemplosBitbloq/Servo.xml)
+![imagen](./imagenes/Servo.png) [[ejemplo]](./ejemplosBitbloq/Servo.xml)
 
 Para usar la librería Servo con bitbloq podemos usar los bloques Servo. Existen 2 tipos de servos: los de rotación continua y los normales.
 
