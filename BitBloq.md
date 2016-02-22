@@ -145,6 +145,34 @@ Podremos ver estos valores por el "Monitor Serie"
 
 Las sentencias de control son aquellas que nos permite modificar el orden o el modo en el que se ejecutan los bloques de nuestro programa
 
+## Leer valores analógicos
+
+Cuando añadimos un sensor analógico podemos leer su valor con un nuevo componente
+
+![pot](./imagenes/Potenciometro.png)
+
+Podremos utilizar ese valor que estará entre 0 y 1023
+
+Su código:
+
+	int led10 = 10;
+	int potenciometro = A0;
+
+	void setup() {
+	    pinMode(led10, OUTPUT);
+	    Serial.begin(9600);
+	}
+
+	void loop() {
+	    digitalWrite(led10, HIGH);
+	    Serial.println("Encendido");
+	    delay(analogRead(potenciometro));
+	    digitalWrite(led10, LOW);
+	    Serial.println("Apagado");
+	    delay(analogRead(potenciometro));
+	}
+
+
 ### Variables
 
 Para utilizar las sentencias de control necesitaremos el concepto de variables: que no es otra cosa que un lugar donde almacenar un valor que puede se modificar si así lo queremos
@@ -318,13 +346,6 @@ Veamos ahora como activar un led al pulsar un botón. Para ello añadiremos un b
 ![entradasanalogicas](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/entrada%20analogica.png)
 
 Veamos como leer las entradas digitales
-
-
-
-## ¿¿¿¿ Salidas analógicas (PWM) ????
-
-
-![imagen](./ejemplosBitbloq/Salida_Analogica.png) [[ejemplo]](./ejemplosBitbloq/Salida_Analogica.xml)
 
 
 Puedes encontrar más tutoriales en la página [oficial de bitbloq](http://diwo.bq.com/tag/bitbloq-2/)
