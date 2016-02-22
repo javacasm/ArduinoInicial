@@ -284,6 +284,12 @@ Entre estas condiciones utilizaremos operadores lógicos que pueden ser AND o OR
 
 Podemos enviar contenidos entre nuestra placa y el PC usando las sentencias de comunicaciones. Usaremos print para enviar algo (puede ser el valor de una variable o un texto) al pc o println para enviar y pasar a la siguiente línea.
 
+## Entradas analógicas
+
+[[video]](https://youtu.be/nChCA1Qc0uo)[[ejemplo]](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/entrada%20analogica.json)
+
+![entradasanalogicas](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/entrada%20analogica.png)
+
 ## Variables locales vs Variables globales
 
 [vídeo](https://youtu.be/U3ulo7rAE58) [ejemplo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/variables%20globales.json)
@@ -313,15 +319,6 @@ En bitbloq existen 2 formas de generar sonidos
 
 ![imagen](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/sonido.png) [[ejemplo]](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/sonido.json)
 
-## ¿¿¿¿¿ Librerías ????
-
-En el caso de Bitbloq, ahora mismo no se pueden usar librerías, de forma manual.
-
-### Servo
-
-![imagen](./imagenes/Servo.png) [[ejemplo]](./ejemplosBitbloq/Servo.xml)
-
-Para usar la librería Servo con bitbloq podemos usar los bloques Servo. Existen 2 tipos de servos: los de rotación continua y los normales.
 
 
 ## Entradas y salidas digitales
@@ -345,7 +342,12 @@ Veamos ahora como activar un led al pulsar un botón. Para ello añadiremos un b
 
 ![entradasanalogicas](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/entrada%20analogica.png)
 
-Veamos como leer las entradas digitales
+## Servos
 
+Para usar la librería Servo con bitbloq podemos usar los bloques Servo. Existen 2 tipos de servos: los de rotación continua y los normales.
+
+![HardwareServo.png](./imagenes/HardwareServo.png)
+
+![SoftwareServo.png](./imagenes/SoftwareServo.png)
 
 Puedes encontrar más tutoriales en la página [oficial de bitbloq](http://diwo.bq.com/tag/bitbloq-2/)
