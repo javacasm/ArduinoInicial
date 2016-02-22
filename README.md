@@ -1,11 +1,14 @@
 # Arduino Inicial
 
-
 ## Curso para el CEP de Orcera
 
 ## 22,23 de Febrero y 7,8 de Marzo
 
 ## Nivel básico
+
+José Antonio Vacas @javacasm
+
+![cc](./imagenes/CCbySQ_88x31.png)
 
 ### Herramientas Bitbloq y Arduino
 
@@ -15,13 +18,6 @@
 4. Proyectos
 
 ## Sesiones no presenciales: Estudio de la documentación y resolución de los retos propuestos
-
-
-José Antonio Vacas @javacasm
-
-![cc](./imagenes/CCbySQ_88x31.png)
-
-
 
 ## JUSTIFICACIÓN
 
