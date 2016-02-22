@@ -1,14 +1,14 @@
-# ArduinoBasico
+# Arduino Inicial
 
-# CEP de úbeda
+## Curso para el CEP de Orcera
 
-## 9 de Febrero, 2 y 10 de Marzo de 2016
+## 22,23 de Febrero y 7,8 de Marzo
+
+## Nivel básico
 
 José Antonio Vacas @javacasm
 
 ![cc](./imagenes/CCbySQ_88x31.png)
-
-
 
 # Programando con [Bitbloq](http://bitbloq.bq.com)
 
