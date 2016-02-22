@@ -48,6 +48,16 @@ Si hay un producto que puede representar el boom de la irrupción de la tecnolog
 
 #### (descargar el programa en la placa)
 
+#### Instalación de Bitbloq
+
+1. Se recomienda usar chrome, para que funcione al 100%. Podemos descargarlos desde [aquí](http://chrome.google.com). Para instalar la versión adecuada necesitamos saber si nuestro sistema operativo es de 32 o de 64 bits
+
+![insta](./imagenes/InstalacionChrome.png)
+
+2. Una vez que tengamos nuestro programa  y pulsamos el icono de la flecha para descargar el programa a Arduino. Para instalar la versión adecuada necesitamos saber si nuestro sistema operativo es de 32 o de 64 bits
+
+![install](http://zowi.bq.com/wp-content/uploads/2016/01/Bitbloq-I-Hello-World-English-Pic-08.jpg)
+
 #### [Instalación del IDE de arduino](http://www.slideshare.net/javacasm/32-instalacin-del-ide)
 
 ## Ejemplos
