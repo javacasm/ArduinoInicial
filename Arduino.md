@@ -2,7 +2,7 @@
 
 ## Curso para el CEP de Orcera
 
-## 22,23 de Febrero y 7,8 de Marzo
+## 22, 23 de Febrero y 7, 8 de Marzo
 
 ## Nivel básico
 
