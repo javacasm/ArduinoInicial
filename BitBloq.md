@@ -315,7 +315,7 @@ En bitbloq existen 2 formas de generar sonidos
 * Reproducir notas musicales: podemos escoger la nota que vamos a reproducir y su duración
 
 
-* ¿¿¿¿¿ Seleccionar la frecuencia exacta que queremos reproducir y su duración ???
+* Si pulsamos en la opción de "Avanzados" veremos que podemos usar bloques donde seleccionar la frecuencia exacta que queremos reproducir y su duración.
 
 ![imagen](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/sonido.png) [[ejemplo]](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/sonido.json)
 
