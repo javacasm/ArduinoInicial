@@ -1,3 +1,13 @@
+# Recursos: ¿dónde obtener ejemplos?
+
+[Procomún educalab](http://procomun.educalab.es/es/ode/view/1453974406581)
+
+[Proyectos bitbloq](http://bitbloq.bq.com/#/explore)
+
+[Curso bitbloq](http://diwo.bq.com/course/aprende-robotica-y-programacion-con-bitbloq-2/)
+
+[Otros Proyectos](https://github.com/javacasm/ProyectosEscolaresRobots/blob/master/proyectos/proyectos.md)
+
 # Parpadeando
 
 1. Empezamos con 1 led Parpadeando
@@ -78,7 +88,7 @@ Coneptos:
 1. Ahora vamos a añadir un sensor de paso que lanzará una alarma cuando se active. Vemos que la espera nos complica todo...
   * Debemos de romper la espera larga en esperas más pequeñas
   * Usaremos un bucle de repetición determinista: for
-  
+
 TODO: Maqueta (¿modelo 3D?)
 
 # Seguidor solar
