@@ -46,6 +46,8 @@ Su éxito se basa en el hecho de que, al ser libre, está disponible desde much�
 
 ## [Bitbloq](./BitBloq.md)
 
+## [Proyectos](./proyectos.md)
+
 ## [Presentaciones](./presentaciones)
 
 ## [Dónde comprar](./Comprar.md)
