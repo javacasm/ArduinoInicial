@@ -14,6 +14,7 @@ José Antonio Vacas @javacasm
 ## España
 
 * www.electan.com
+* www.leantec.com
 * www.bricogeek.com
 * www.cooking-hacks.com
 * Bq.com
