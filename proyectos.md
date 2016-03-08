@@ -110,3 +110,32 @@ TODO: Maqueta (¿modelo 3D?)
     * Velocidad de muestreo
 
 TODO: Maqueta (¿modelo 3D?)
+
+# Sensor de aparcamiento
+
+Vamos a utilizar el Sensor de ultrasonidos para medir la distancia hasta un obstáculo.
+
+En primer lugar probaremos que este hace medidas más o menos precisas usando el envío del valor medido al PC.
+
+En función de la distancia al obstáculo haremos:
+* Si es menor que 100cm encenderemos el led de primer aviso
+* Si es menor que 50cm encenderemos el led del 2º aviso.
+* Si es menor que 30cm comenzaremos a emitir un sonido más rápido cuando más cerca esté el obstáculo.
+
+[Enlace al proyecto](http://bitbloq.bq.com/#/bloqsproject/546e2764e4b0bde006d0857e:181600d4-5f14-4bd8-a156-b9a304476891)
+
+![H](./imagenes/HardwareSensorAparcamiento.png)
+
+![S](./imagenes/SoftwareSensorAparcamiento.png)
+
+[vídeo](https://www.youtube.com/watch?v=7hgUJK6-60k&feature=youtu.be)
+
+# Robot siguelíneas
+
+Se trata de un robot sencillo que usa 2 servos para moverse y que sigue una línea negra sobre fondo blanco.
+
+[Enlace al proyecto](http://bitbloq.bq.com/#/bloqsproject/546e2764e4b0bde006d0857e:6f5e9d66-9811-4ce6-b9bf-c3b1a9244fec)
+
+![H](./imagenes/HardwareRobotSiguelineas.png)  
+
+![S](./imagenes/SoftwareSigueLineas.png)
