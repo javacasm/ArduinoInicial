@@ -111,6 +111,17 @@ TODO: Maqueta (¿modelo 3D?)
 
 TODO: Maqueta (¿modelo 3D?)
 
+# Gaita electrónica
+
+Se trata de usar dos sensores analógicos para controlar la frecuencia y la duración de la nota que reproducirá el zumbador
+
+![h](./imagenes/HardwareGaita.png)
+
+![s](./imagenes/SoftwareGaita.png)
+
+
+Propuesta: usar sensores digitales (sensores infrarrojos) para construir un instrumento afinado
+
 # Sensor de aparcamiento
 
 Vamos a utilizar el Sensor de ultrasonidos para medir la distancia hasta un obstáculo.
